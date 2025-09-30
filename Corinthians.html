@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Crstyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div><header >
+        <a href="https://www.corinthians.com.br/" target="_blank" Title="Corinthians">
+        <img src="Images/974ed87ba177286285f6_zoom.png" alt="Logo Corinthians" id="logo">
+        </a>
+        <h1>CORINTHIANS</h1>
+        <a href="https://www.nike.com/br/" target="_blank" Title="Nike">
+        <img src="Images/Logo_NIKE.svg" alt="Nike" id="nike">
+        </a>
+    </header></div>
+    <div>
+        <img src="Images/camisa_banner.png" alt="Banner Corinthians" id="banner">
+    <button class="arrow-btn" onclick="imagem()">></button>
+    <button class="arrow-btn1" onclick="imagem()"><</button>
+    </div>
+    <div>
+    <h3 class="texto"><b>Nova Camisa III</b></h3>
+    <h1 class="Main"><b>TOTAL CORINTHIANS</b></h1>
+    <h3 class="texto">Inspirada no timão que ficou na história.</h3>
+    </div>
+    <div>
+        <a href="https://www.nike.com.br/hotsite/corinthians" target="_blank" Title="Compre a camisa">
+        <button id="comprar" style="font-family: Futura Bold Condensed;">COMPRAR</button>
+        </a>
+    </div>
+    <div>
+        
+    <div>
+        <script>
+            let banner = true;
+            function imagem(){
+                
+                if (banner == true){
+                document.getElementById("banner").src = "images/nike_football_4x5step1.png"
+                document.getElementById("banner").style.height = "700px";
+                banner = false;
+                }
+                else{
+                    document.getElementById("banner").src = "images/camisa_banner.png"
+                    banner = true;
+                }
+            }
+        </script>
+        
+    </div>
+    <a href="https://www.corinthians.com.br/parquesaojorge" target="_blank" Title="Seja socio torcedor">
+        <img src="Images/adsocio.jpeg" alt="Seja socio torcedor" id="socio">
+    </a>
+</body>
+</html>
