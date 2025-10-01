@@ -125,6 +125,9 @@ body{
     background-color: white;
     color: black;
     border: 2px solid black;
+    box-shadow: 5px 5px 5px, gray;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
 }
 #comprar:active{
     background-color: rgb(241, 101, 7);
@@ -139,4 +142,10 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease;
 }
+
+#logo:hover, #nike:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
 
